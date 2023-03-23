@@ -1,7 +1,7 @@
 # Password Generator
 A simple web application that generates secure and strong passwords based on user-defined criteria.
 
-![Password Generator Screenshot](./img/captura.png)
+![Password Generator Screenshot](./img/captura.jpg)
 
 ## Features
 
