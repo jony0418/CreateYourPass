@@ -52,7 +52,7 @@ function generatePassword() {
 
   // I will be using the console.log() method to check the values of the variables and see
   // if I am getting the expected results after I will comment them out
-  // console.log(addLowcase, addUppercase, addNumber, addSpecial);  
+  //  console.log(addLowcase, addUppercase, addNumber, addSpecial);  
 
   // we can use the if statement to add the characters to the characters variable 
   // if the user selected them in the confirm prompts
@@ -61,7 +61,7 @@ function generatePassword() {
   if (addNumber) characters += numericCharacters;
   if (addSpecial) characters += specialCharacters;
 
-  // console.log(characters);
+  //  console.log(characters);
 
   // Generate the password by randomly selecting characters from the combined character set with a for loop
   // the += operator is used to add the randomly selected character to the password string
@@ -72,8 +72,8 @@ function generatePassword() {
   for (let i = 0; i < length; i++) {
     rdm = Math.floor(Math.random() * characters.length);
     password += characters.charAt(rdm - 1);
-    // console.log(rdm);
-    // console.log(password);
+    //  console.log(rdm);
+    //  console.log(password);
   }
 
   // Return the generated password
